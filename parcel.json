@@ -1,7 +1,7 @@
 {
    "schema_version": 1,
    "name": "PYTHON_CONDA",
-   "version": "1",
+   "version": ""${VERSION}"",
    "setActiveSymlink": true,
    "depends": "",
    "replaces": "",
@@ -20,9 +20,9 @@
        "pkg_release": "4.10.3"
      },
      { "name" : "python",
-       "version" : "3.6.10",
-       "pkg_version": "3.6.10",
-       "pkg_release": "3.6.10"
+       "version" : ""${VERSION}"",
+       "pkg_version": ""${VERSION}"",
+       "pkg_release": ""${VERSION}""
      }
    ],
    "users": {
