@@ -1,0 +1,37 @@
+{
+   "schema_version": 1,
+   "name": "PYTHON_CONDA",
+   "version": "1",
+   "setActiveSymlink": true,
+   "depends": "",
+   "replaces": "",
+   "conflicts": "",
+   "provides": [
+   ],
+   "scripts": {
+     "defines": "python_conda_env.sh"
+   },
+   "packages": [
+   ],
+   "components": [
+     { "name" : "miniconda3",
+       "version" : "4.10.3",
+       "pkg_version": "4.10.3",
+       "pkg_release": "4.10.3"
+     },
+     { "name" : "python",
+       "version" : "3.6.10",
+       "pkg_version": "3.6.10",
+       "pkg_release": "3.6.10"
+     }
+   ],
+   "users": {
+     "spark": {
+       "longname" : "Spark",
+       "home" : "/var/lib/spark",
+       "shell" : "/usr/sbin/nologin",
+       "extra_groups": [ ]
+     }
+   },
+   "groups": []
+ }
